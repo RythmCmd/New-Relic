@@ -4,7 +4,7 @@ Bring back multiple deleted dashboards from New Relic
 
 Steps:
 
-1. Get the list of deleted dashboard GUID by executing the below NRQL
+1. Get the list of deleted dashboard GUID by executing NRQL : 
    SELECT count(\*) from NrAuditEvent FACET targetId where actionIdentifier ='dashboard.delete' since 1 day ago limit max
 
 2. Save the GUID in a txt file name it as guids.txt
