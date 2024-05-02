@@ -1,6 +1,6 @@
 Use Case:
 
-Bring back multiple deleted dashboards from New Relic
+Recover deleted dashboards in New Relic
 
 Steps:
 
